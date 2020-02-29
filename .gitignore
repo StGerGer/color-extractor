@@ -1,0 +1,7 @@
+__pycache__
+
+# Example config files used for testing
+config.*
+
+# Little Perl script for personal use
+update_polybar.pl
