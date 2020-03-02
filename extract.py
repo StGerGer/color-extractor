@@ -61,10 +61,6 @@ class Extractor:
         if return_color_counts:
             return palette, color_counts
         return palette
-
-    def get_image_data_from_url(self, url):
-        req = urllib.urlopen(url)
-        return np.asarray(bytearray(req.read()), dtype=np.uint8) 
     
     def get_cached_colors(self):
         return self.scheme_cache
